@@ -61,7 +61,9 @@ $ pipenv install
 
 Enter your virtual environment with:
 
-```$ pipenv shell```
+```
+$ pipenv shell
+```
 
 When working with Django and there changes to our model or our database is not created we need to run the command:
 
