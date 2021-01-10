@@ -31,7 +31,7 @@ router.register(r"payer", PayerViewset)
 urlpatterns = [
     path("add-points/", addPayerPoints),
     path("remove-points/", removePayerPoints),
-    path("balances", getPayerBalences),
+    path("balances/", getPayerBalences),
     path("transactions/", TransactionViewset),
     path("api/", include(router.urls)),
     path("admin/", admin.site.urls),
